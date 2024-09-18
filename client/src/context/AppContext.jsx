@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from 'react';
 
 export const AppContext = createContext();
 
-const AppProvier = ({ children }) => {
+const AppProvider = ({ children }) => {
   const [currentLocation, setCurrentLocation] = useState('');
   const [cityName, setCityName] = useState('');
 
@@ -43,4 +43,4 @@ const AppProvier = ({ children }) => {
   );
 };
 
-export default AppProvier;
+export default AppProvider;

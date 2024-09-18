@@ -13,7 +13,7 @@ const Detail = () => {
     {
       name: 'Unsubcribe',
       href: '/unsubcribe',
-    },
+    }
   ];
   return (
     <div className='flex flex-col p-10 gap-7'>

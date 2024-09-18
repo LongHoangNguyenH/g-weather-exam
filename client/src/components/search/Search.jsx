@@ -32,7 +32,7 @@ const Search = () => {
 
   return (
     <div className="flex flex-row h-[660px]  relative ">
-      <div className="absolute bg-slate-400 p-10 text-black left-0 right-0 h-full flex flex-col justify-between">
+      <div className="absolute rounded-3xl bg-slate-400 p-10 text-black left-0 right-0 h-full flex flex-col justify-between">
         <div className="flex flex-col justify-between items-center w-full mt-[100px]">
           <div className="flex items-center text-center text-[24px] font-[400] drop-shadow-xl bg-black/20 rounded-[14px] py-2 w-[200px]">
             <img src={location} alt="search" className="size-6 mx-4" />

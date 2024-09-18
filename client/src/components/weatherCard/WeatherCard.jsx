@@ -2,7 +2,7 @@ import './style.css';
 const WeatherCard = ({ data, plain }) => {
   if (plain) {
     return (
-      <div className='flex flex-col justify-between bg-blue-400 items-center p-3 rounded-xl shadow-custom'>
+      <div className='flex flex-col justify-between bg-slate-300 items-center p-3 rounded-xl shadow-custom'>
         <h2 className='font-[500] text-[16px]'>{`${data?.date}`}</h2>
         <img
           src={data?.condition.icon}
@@ -18,7 +18,7 @@ const WeatherCard = ({ data, plain }) => {
     );
   }
   return (
-    <div className='flex items-center p-5 rounded-xl shadow-custom bg-blue-400'>
+    <div className='flex items-center p-5 rounded-xl shadow-custom bg-slate-300'>
       <div className='flex-[3] flex flex-col gap-1'>
         <h2 className='font-[500] text-[18px]'>{`${data?.location} (${data?.date})`}</h2>
         <div className='flex flex-col'>
