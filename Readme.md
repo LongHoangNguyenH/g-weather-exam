@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <div align="center"> 
-  <img src="https://github.com/LongHoangNguyenH/g-weather-exam/blob/main/public/image.png"   alt="screenshot" />
+  <img src="https://github.com/LongHoangNguyenH/g-weather-exam/blob/main/assets/image.png"   alt="screenshot" />
 </div>
   <br />
 
