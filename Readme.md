@@ -125,10 +125,10 @@ run this command below from both client and server to start the application
 npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:5173/weather](http://localhost:5173/weather) in your browser to view the project.
 
 ## <a name="deployment">🤖 Deployment</a>
 
 To try this application, you can visit this link:
 
-[Weather App](https://home-rental-client-silk.vercel.app/)
+[g-weather-app-demo](https://g-weather-exam-client.vercel.app/weather)
