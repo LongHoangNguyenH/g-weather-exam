@@ -131,4 +131,4 @@ Open [http://localhost:5173/weather](http://localhost:5173/weather) in your brow
 
 To try this application, you can visit this link:
 
-[https://g-weather-exam-client.vercel.app/weather](https://g-weather-exam-client.vercel.app/weather)
+[https://g-weather-exam-client.vercel.app](https://g-weather-exam-client.vercel.app)
