@@ -1,0 +1,1 @@
+export const WHITELIST_DOMAINS = ['https://g-weather-exam-client.vercel.app/weather'];
