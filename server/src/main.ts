@@ -13,10 +13,18 @@ async function bootstrap() {
   app.enableCors();
   app.setGlobalPrefix('v1');
 
-  await app.listen(env.LOCAL_DEV_PORT, env.LOCAL_DEV_HOSTNAME, () => {
-    console.log(
-      `Back-End Server is running at http://${env.LOCAL_DEV_HOSTNAME}:${env.LOCAL_DEV_PORT}/`,
-    );
-  });
+  if (env.BUILD_MODE === 'production') {
+    await app.listen(process.env.PORT, () => {
+      console.log(
+        `> Production: Back-End Server is running at port ${process.env.PORT}`,
+      );
+    });
+  } else {
+    await app.listen(env.LOCAL_DEV_PORT, env.LOCAL_DEV_HOSTNAME, () => {
+      console.log(
+        `> Local DEV: Back-End Server is running at http://${env.LOCAL_DEV_HOSTNAME}:${env.LOCAL_DEV_PORT}/`,
+      );
+    });
+  }
 }
 bootstrap();
